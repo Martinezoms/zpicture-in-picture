@@ -6,4 +6,39 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6bbcfe;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c9dbf8' fill-opacity='0.84' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.button-container {
+  padding: 10px;
+  border: 3px solid rgb(88, 155, 249);
+  border-radius: 7px;
+  box-shadow: inset 0 20px 4px -19px rgb(50, 132, 247);
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  width: 120px;
+  height: 75px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  background-color: #6bbcfe;
+  border: 3px solid rgb(50, 132, 247);
+  border-radius: 7px;
+  box-shadow: inset 0 20px 4px -19px rgb(50, 132, 247);
+}
+
+button:hover {
+  filter: contrast(120%);
+}
+
+button:active {
+  transform: translatey(2px);
 }
